@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Conta & Gorjeta</title>
+</head>
+<body>
+    <div class="container">
+      
+        <div class="title">
+            <h1>Conta & Gorjeta</h1>
+            <img class="img-fundo" src="/img/cash.png" alt="">
+        </div>
+      
+        <form class="formulario" action="" method=""> <!--FORMULARIO-->
+            <div class="checkbox"> <!--CHECK BOX-->
+           <input type="checkbox" name="coffee" id="">
+            <label class="lb-check" for="coffee">Cafe da manhã</label>
+
+            <input type="checkbox" name="almoço" id="">
+            <label class="lb-check"for="almoço">Almoço</label>
+
+            <input type="checkbox" name="jantar" id="">
+            <label class="lb-check" for="jantar">Jantar</label>
+        </div>
+         
+        <div class="consumo"> <!--CONSUMO TOTAL-->
+               <h1>Consumo Total</h1>
+               <label for="R$">R$</label>
+               <input type="text" id="valor" placeholder="Total da conta" >
+        </div>
+            
+        <div class="cash"> <!--FORMA DE PAGAMENTO-->
+                <h1>Forma de Pagamento</h1>
+                <input type="checkbox" name="dinheiro" id="dinheiro">
+                <label for="dinheiro">Dinheiro</label>
+
+                <input type="checkbox" name="cartao" id="cartao">
+                <label for="cartao">Cartão</label>
+
+                <input type="checkbox" name="pix" id="Pix">
+                <label for="pix">Pix</label>
+            </div> 
+            
+             <div class="taxa"> <!--TAXA DE SERVIÇO-->
+                <h1>Qual a taxa de serviço?</h1>
+                <select name="taxa" id="taxa">
+
+                <option value="taxa">--Defina a Taxa--</option>
+                <option value="0">0%</option>
+                <option value="10">10%</option>
+
+               </select>
+            </div>
+              
+           <div class="dividir"> <!--DIVIDIR A CONTA-->
+                <h1>Dividir conta?</h1>
+                
+                <input type="checkbox" name="sim" id="sim">
+                <label for="sim">sim</label>
+        
+                <input type="checkbox" name="nao" id="nao">
+                <label for="nao">nao</label>
+           
+            <select name="pessoas" id="pessoas">
+                <option value="taxa">--Dividir Conta--</option>
+                <option value="dividir">Vou pagar Só</option>
+                <option value="dividir">Pra 02</option>
+                <option value="dividir">Pra 03</option>
+                <option value="dividir">Pra 04</option>
+                <option value="dividir">Pra 05</option>
+                <option value="dividir">Pra 06</option>
+                <option value="dividir">Pra 07</option>
+                <option value="dividir">Pra 08</option>
+                <option value="dividir">Pra 09</option>
+                <option value="dividir">Pra 10</option>
+            </select>
+            </div>
+
+           <div class="bnt">
+                <button>Calcular</button>
+           </div>
+       </div>
+    </div>
+        
+    </form>
+
+    </div>
+    
+</body>
+</html>
