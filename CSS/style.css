@@ -14,10 +14,11 @@
 .title h1{
     
     margin-left: 10%;
-    width: 20rem;
+
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     color: rgb(29, 5, 94);
     background:orangered;
@@ -28,9 +29,9 @@
 .title img{
    
     width: 100%;
-    height: 10rem;
+    height: 9rem;
     background:rgb(29, 5, 94);
-    padding-bottom: 1rem;
+   
 
 }
 
@@ -46,7 +47,7 @@
 .formulario{
     text-align: center;
     width: 50%;
-    height: 50vh;
+    height: 60vh;
     background: rgb(228, 133, 10);
     color: rgb(12, 23, 170);
   
